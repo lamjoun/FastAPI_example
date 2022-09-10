@@ -1,0 +1,12 @@
+name: cicd_conda_env2
+channels:
+  - defaults
+dependencies:
+  - python=3.9.6
+  - scikit-learn
+  - pytest
+  - uvicorn
+  - pandas
+  - fastapi
+  - numpy
+prefix: E:\ProgramFiles\Anaconda3\envs\cicd_conda_env2

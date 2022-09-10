@@ -1,0 +1,13 @@
+name: FastAPI_example_env
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - scikit-learn
+  - pandas
+  - pytest
+  - pydantic
+  - uvicorn
+  - fastapi
+  - python=3.9.6
+prefix: E:\ProgramFiles\Anaconda3\envs\FastAPI_example_env

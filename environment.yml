@@ -1,0 +1,16 @@
+name: FastAPI_example_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.6
+  - pytest
+  - scikit-learn
+  - fastapi
+  - uvicorn
+  - pydantic
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - requests
