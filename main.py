@@ -42,8 +42,17 @@ async def get_items():
     GET on the root giving a welcome message.
     """
     return {"message": "Hi, here function to predict..."}
-    
-    
+
+
+
+@app.get("/test")
+async def get_items_test():
+    """
+    GET on the root giving a welcome message.
+    """
+    return {"message": "Hi, here function to predict..."}
+
+
 @app.post('/iris_prediction')
 def iris_prediction(input_parameters: ModelInput):
     #
